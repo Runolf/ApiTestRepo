@@ -10,7 +10,7 @@ namespace APITest.Controllers
 {
     public class EmployeeController : ApiController
     {
-        private IList<Employee> Employees = new List<Employee>()
+        private IList<Employee> List = new List<Employee>()
         {
             new Employee(){ID = 1, Firstname="Jhon", Lastname="Doe"},
             new Employee(){ID = 2, Firstname="Runolf", Lastname="Erlingson"},
@@ -19,35 +19,36 @@ namespace APITest.Controllers
             new Employee(){ID = 5, Firstname="Ingird", Lastname="Durant"}
         };
 
+        [HttpGet]
         public IEnumerable<Employee> Get()
         {
-            return Employees; 
+            return List; 
         }
 
-       
+        [HttpGet]
         public Employee Get(int Id)
         {
-            return Employees.Where(e => e.ID == Id).FirstOrDefault();
+            return List.Where(e => e.ID == Id).FirstOrDefault();
         }
 
-        
+        [HttpPost]
         public void Post(Employee employee)
         {
-            int maxId = Employees.Max(e => e.ID);
+            int maxId = List.Max(e => e.ID);
             employee.ID = maxId + 1;
-            Employees.Add(employee);
+            List.Add(employee);
         }
 
         public void Put(int id, Employee employee)
         {
-            int index = Employees.ToList().FindIndex(e => e.ID == id);
-            Employees[index] = employee;
+            int index = List.ToList().FindIndex(e => e.ID == id);
+            List[index] = employee;
         }
 
         public void Delete(int id)
         {
             Employee emp = Get(id);
-            Employees.Remove(emp);
+            List.Remove(emp);
 
         }
     }
