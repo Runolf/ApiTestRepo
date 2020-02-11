@@ -1,0 +1,10 @@
+C:\Users\stagiaire02\source\repos\Consume Api With HttpClient (Crud)\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsumeAPI_Test.deps.json
+C:\Users\stagiaire02\source\repos\Consume Api With HttpClient (Crud)\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsumeAPI_Test.runtimeconfig.json
+C:\Users\stagiaire02\source\repos\Consume Api With HttpClient (Crud)\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsumeAPI_Test.runtimeconfig.dev.json
+C:\Users\stagiaire02\source\repos\Consume Api With HttpClient (Crud)\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsumeAPI_Test.dll
+C:\Users\stagiaire02\source\repos\Consume Api With HttpClient (Crud)\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsumeAPI_Test.pdb
+C:\Users\stagiaire02\source\repos\Consume Api With HttpClient (Crud)\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsumeAPI_Test.csprojAssemblyReference.cache
+C:\Users\stagiaire02\source\repos\Consume Api With HttpClient (Crud)\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsumeAPI_Test.AssemblyInfoInputs.cache
+C:\Users\stagiaire02\source\repos\Consume Api With HttpClient (Crud)\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsumeAPI_Test.AssemblyInfo.cs
+C:\Users\stagiaire02\source\repos\Consume Api With HttpClient (Crud)\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsumeAPI_Test.dll
+C:\Users\stagiaire02\source\repos\Consume Api With HttpClient (Crud)\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsumeAPI_Test.pdb
